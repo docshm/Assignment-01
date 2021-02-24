@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Data</title>
+</head>
+
+<body>
+    <h1>My Bio Data</h1>
+    <br>
+    <form method="post">
+        <fieldset>
+            <legend>
+                <h3>Personal Information</h3>
+            </legend>
+            <label for="First">First Name:</label>
+            <input type="text" placeholder="First Name" id="First" required>
+            <label for="Last">Last Name:</label>
+            <input type="text" placeholder="Last Name" id="Last" required>
+            <br>
+            <br>
+            <label for="Male"> Male:</label>
+            <input type="radio" id="Male" name="gender">
+            <label for="Female"> Female:</label>
+            <input type="radio" id="Female" name="gender">
+            <label for="Others"> Others:</label>
+            <input type="radio" id="Others" name="gender">
+            <br>
+            <br>
+            <label for="Dob">Date of Birth&nbsp;:&nbsp;</label>
+            <input type="date" id="Dob">
+            <br>
+            <br>
+            <label for="Em">E-Mail&nbsp;:&nbsp;</label>
+            <input type="email" placeholder="Enter Your Email" id="Em" required>
+            <br>
+            <br>
+            <label for="Phone">Phone&nbsp;:&nbsp;</label>
+            <input type="tel" maxlength="10" placeholder="+91" id="Phone">
+            <br>
+            <br>
+            <label for="Height">Height&nbsp;:&nbsp;</label>
+            <input type="number" placeholder="Height in Feet" id="Height">
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Education</h3>
+            </legend>
+            <label for="Sname">School Name:</label>
+            <input type="text" placeholder="School Name" id="Sname" required>
+            <br>
+            <br>
+            <label for="Class">Class&nbsp;:&nbsp;</label>
+            <input type="text" id="Class" required>
+            <br>
+            <br>
+            <label for="Stream">Stream&nbsp;:&nbsp;</label>
+            <select id="Stream">
+                <option>Science</option>
+                <option>Commerce</option>
+                <option>Arts</option>
+            </select>
+            <br>
+            <br>
+            <label for="Mark">Marksheet&nbsp;:&nbsp;</label>
+            <input type="file" id="Mark" required>
+        </fieldset>
+        <br>
+        <br>
+        <label for="Rate">Rating&nbsp;:&nbsp;</label>
+        <input type="range" id="Rate">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
